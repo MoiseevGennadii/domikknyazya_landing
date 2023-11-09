@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Домик Князя</title>
+    <link rel="stylesheet" href="style.css">
+    <script async src="./js/scripts.js" defer></script>
+    <script async src="./js/jquery.min.js" defer></script>
+    <script async src="/js/prices.js" defer></script>
+    <script async src="/js/calendar.js" defer></script>
+</head>
+
+<body>
+    <header class="container">
+        <h1 class="title">Домик Князя</h1>
+        <p class="description">аренда агроусадьбы в тихом живописном месте</p>
+        <div class="button">
+            <a href="#" class="button">забронировать</a>
+        </div>
+    </header>
+
+    <main class="main">
+        <section class="block1">
+            <div class="block1__text block1__leyer">
+                <p>Агроусадьба Домик Князя расположена в миорском районе, крае озёр и лесов.
+                </p>
+            </div>
+            <div class="block1__img">
+                <iframe
+                    src="https://yandex.ru/map-widget/v1/?um=constructor%3A148a8bf5c3c1640ae284f7dfdc1b50ff5a73827e73a96dd3ace9c13391b8512e&amp;source=constructor"
+                    width="90%" height="" frameborder="0"></iframe>
+            </div>
+        </section>
+
+        <section class="block2">
+            <h2>Чем заняться</h2>
+            <div class="block2__fun">
+                <div class="dlock2__fun-img">
+                    <p>qqsssssssssssss</p>
+                    <img class="" src="/images/3.jpg" alt="">
+                </div>
+            <div class="block2__fun">
+                <div class="dlock2__fun-img">
+                    <p>qqsssssssssssss</p>
+                    <img class="" src="/images/3.jpg" alt="">
+                </div>
+            <div class="block2__fun">
+                <div class="dlock2__fun-img">
+                    <p>qqsssssssssssss</p>
+                    <img class="" src="/images/3.jpg" alt="">
+                </div>
+            <div class="block2__fun">
+                <div class="dlock2__fun-img">
+                    <p>qqsssssssssssss</p>
+                    <img class="" src="/images/3.jpg" alt="">
+                </div>
+
+
+            </div>
+        </section>
+
+        <section class="block3">
+            <h2>Pricing</h2>
+            <!-- Pricing plans/options -->
+            <h2>Стоимость аренды дома:</h2>
+            <ul>
+                <li>от 1 до 3 человек - <span class="price"></span> руб в сутки.</li>
+                <li>от 4 и больше - <span class="price1"></span> руб в сутки.</li>
+                <li>ребёнок от 3 до 16 лет. - <span class="price2"></span> руб в сутки.</li>
+                <li>Истопка бани - <span class="price3"></span> руб в сутки.</li>
+            </ul>
+            <p>
+                Детям до 3-х лет проживание бесплатное!
+                В стоимость входит пользование лодкой!
+            </p>
+        </section>
+
+        <section id="contact">
+            <h2>Contact</h2>
+            <!-- Contact form or contact information -->
+        </section>
+    </main>
+
+    <!-- Footer section -->
+    <footer>
+        <div class="arrow" id="upArrow" onclick="arrow()">&#9650;</div>
+        <div class="time"></div>
+        <script>
+            function time() {
+                let data = new Date();
+                let year = 2022 + " " + "-" + " " + data.getFullYear();
+                return year;
+            }
+            document.querySelector(".time").innerHTML = '&copy' + " " + time();	
+        </script>
+    </footer>
+</body>
+
+</html>
