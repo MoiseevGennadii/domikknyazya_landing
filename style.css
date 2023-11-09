@@ -1,0 +1,144 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
+
+html {
+	box-sizing: border-box;
+}
+
+*,
+*::after,
+*::before {
+	box-sizing: inherit;
+}
+
+body {
+	margin: 0;
+	padding: 0;
+}
+
+.container {
+	background-image: url("./images/7.jpg");
+	background-size: cover;
+	background-position: center;
+	text-align: center;
+	background-repeat: no-repeat;
+	padding-top: 90px;
+	height: 567px;
+}
+
+.title {
+	font-size: 50px;
+	color: #ffffff;
+	letter-spacing: 4px;
+}
+
+.description {
+	font-size: 20px;
+	color: #ffffff;
+	margin-top: 40px;
+	letter-spacing: 3px;
+}
+
+.button {
+	margin-top: 70px;
+	margin-bottom: 50px;
+	/* text-shadow: 2px; */
+
+}
+
+.button a {
+	display: inline-block;
+	background-color: #10c110;
+	color: white;
+	padding: 15px 35px;
+	text-decoration: none;
+	font-size: 20px;
+	border-radius: 30px;
+	letter-spacing: 1px;
+	text-align: center;
+}
+
+.button a:hover {
+	transform: scale(1.1);
+	transition: 400ms;
+	background-color: #2ca72c;
+
+}
+
+.block1 {
+	display: flex;
+	flex-direction: column;
+	/* margin-top: 5px; */
+	text-align: center;
+	width: 100%;
+	height: 567px;
+}
+
+.block1__text {
+	flex: 1;
+	display: flex;
+	font-size: 2rem;
+	text-indent: 20px;
+	font-family: Roboto, serif;	
+	align-items: center;
+	color: white;	
+	letter-spacing: 1px;
+	line-height: 1.3;
+}
+
+.block1__leyer {
+	background: url(./images/0a0c8476-90ff-451c-9db2-f4f45981a346.png) no-repeat center;
+	opacity: 80%;
+	background-size: cover;
+}
+
+.block1__img {
+	display: flex;
+	flex: 1;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	overflow: hidden;
+}
+
+.block1__img iframe {
+	object-fit: cover;
+	width: 100%;
+	height: 100%;
+}
+
+.block2 {
+	border: 1px solid #10c110;
+	text-align: center;
+}
+
+.block2__fun {
+	display: flex;
+	/* border: 1px solid #c1101f; */
+	flex-direction: column;
+}
+
+.dlock2__fun-img {
+	display: flex;
+	flex: 1;
+	justify-content: center;
+	 border: 1px solid #c1101f;
+
+}
+
+.dlock2__fun-img img {
+	width: 50px;
+	height: 50px;
+}
+
+/* .dlock2__fun-img1 {
+background: url(./images/1.jpg) no-repeat center;
+width: 100%;
+height: 100%;
+}
+
+.dlock2__fun-img2 {
+	background: url(./images/2.jpg) no-repeat center;
+	width: 100%;
+	height: 100%;
+	} */
